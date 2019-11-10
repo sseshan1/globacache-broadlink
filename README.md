@@ -16,7 +16,7 @@ The commands that are generated are compatible with broadlink-mqtt https://githu
 
 The `cmds.awk` script can be used to automatically generate commands to be consumed by `mqtt.py`
 
-###Usage
+### Usage
 Pipe the output of `gc2broadlink.py` into awk script as follows
 `python gc2broadlink.py downloaded_code_file | awk -f cmds.awk -v command_dir=/path/to/broadlink-mqtt/commands -v device=yourdevicename`
 
