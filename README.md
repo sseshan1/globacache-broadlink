@@ -5,7 +5,8 @@ Running the python script outputs the command name and the corresponding broadli
 
 ## Usage
 `python gc2broadlink.py <<codefile>>`
-where codefile is the file downloaded from GlobalCache
+where codefile is the file downloaded from GlobalCache. In reality, the IR codes are emailed to you. Copy the contents containing the codes into a file excluding the header line which will resemble the following
+`function, code1, hexcode1, code2, hexcode2`
 
 A sample GlobalCache IR code file to control most Vizio TVs is included in the package and can be run to see the sample output
 
