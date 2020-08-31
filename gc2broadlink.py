@@ -3,7 +3,7 @@ import struct
 import math
 
 def gc2lirc(gccmd):
-    frequency = int(gccmd.split(",")[3])/1000000
+    frequency = int(gccmd.split(",")[3])*1.0/1000000
     pulses = gccmd.split(",")[6:]
     return [int(round(int(code) / frequency)) for code in pulses]
 
